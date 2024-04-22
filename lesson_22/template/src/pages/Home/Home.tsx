@@ -1,5 +1,27 @@
 import './Home.scss';
 import React from 'react';
+import Program from "./program";
+import ProgramList from "./programList";
+
+const programsData = [
+  {
+    title: "Swine Short Loin",
+    description: "Swine short loin burgdoggen ball tip, shank ham hock bacon...",
+  },
+  {
+    title: "Bacon Ipsum",
+    description: "Bacon ipsum dolor amet leberkas chuck biltong pork loin sirloin...",
+  },
+  {
+    title: "Picanha Swine Jowl",
+    description: "Picanha swine jowl meatball boudin pastrami bresaola fatback...",
+  },
+  {
+    title: "Kevin Chicken T-Bone",
+    description: "Kevin chicken t-bone spare ribs shankle bacon drumstick...",
+  }
+];
+
 
 export const Home: React.FC = () => {
   return (
